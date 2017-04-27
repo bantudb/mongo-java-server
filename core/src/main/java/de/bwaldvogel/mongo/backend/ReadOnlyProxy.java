@@ -29,6 +29,7 @@ public class ReadOnlyProxy implements MongoBackend {
         allowedCommands.add("serverstatus");
         allowedCommands.add("buildinfo");
         allowedCommands.add("getlasterror");
+        allowedCommands.add("convertToCapped");
     }
 
     private MongoBackend backend;
@@ -94,6 +95,11 @@ public class ReadOnlyProxy implements MongoBackend {
     @Override
     public void dropDatabase(String database) throws MongoServerException {
         throw new ReadOnlyException("dropping of databases is not allowed");
+    }
+
+    @Override public void convertToCapped(String databaseName, String collectionNamed, Integer maxDocuments,
+            Integer byteSize) throws MongoServerException {
+        throw new ReadOnlyException("capping of database collections is not allowed");
     }
 
     @Override

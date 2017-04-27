@@ -142,6 +142,11 @@ public abstract class AbstractMongoDatabase<P> implements MongoDatabase {
             return listCollections();
         } else if (command.equalsIgnoreCase("listIndexes")) {
             return listIndexes();
+        } else if (command.equalsIgnoreCase("convertToCapped")) {
+            String collectionName = query.get(command).toString();
+            Integer max = (Integer) query.get("max");
+            Integer size = (Integer) query.get("size");
+            return convertToCapped(collectionName, max, size);
         } else {
             log.error("unknown query: {}", query);
         }
@@ -189,6 +194,19 @@ public abstract class AbstractMongoDatabase<P> implements MongoDatabase {
         Document response = new Document();
         response.put("cursor", cursor);
         Utils.markOkay(response);
+        return response;
+    }
+
+    private Document convertToCapped(String collectionNamed, Integer maxDocuments, Integer byteSize) {
+        Document response = new Document();
+        try {
+            backend.convertToCapped(databaseName, collectionNamed, maxDocuments, byteSize);
+            Utils.markOkay(response);
+        }
+        catch (MongoServerException e) {
+            // TODO(gburd): write proper response document with errors
+            e.printStackTrace();
+        }
         return response;
     }
 
@@ -295,9 +313,6 @@ public abstract class AbstractMongoDatabase<P> implements MongoDatabase {
     private Document commandCreate(Channel channel, String command, Document query) throws MongoServerException {
         String collectionName = query.get(command).toString();
         boolean isCapped = Utils.isTrue(query.get("capped"));
-        if (isCapped) {
-            throw new MongoServerException("Creating capped collections is not yet implemented");
-        }
 
         Object autoIndexId = query.get("autoIndexId");
         if (autoIndexId != null && !Utils.isTrue(autoIndexId)) {
@@ -310,6 +325,17 @@ public abstract class AbstractMongoDatabase<P> implements MongoDatabase {
         }
 
         createCollection(collectionName);
+
+        if (isCapped) {
+            Integer max = (Integer) query.get("max");
+            Integer size = (Integer) query.get("size");
+            try {
+                convertToCapped(collectionName, max, size);
+            } catch (Exception e) {
+                // TODO(gburd): drop the collection
+                throw e;
+            }
+        }
 
         Document response = new Document();
         Utils.markOkay(response);
