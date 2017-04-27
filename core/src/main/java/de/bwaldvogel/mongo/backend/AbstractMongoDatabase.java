@@ -314,9 +314,10 @@ public abstract class AbstractMongoDatabase<P> implements MongoDatabase {
         String collectionName = query.get(command).toString();
         boolean isCapped = Utils.isTrue(query.get("capped"));
 
+        // NOTE: autoIndexId is deprecated in 3.4 so we'll ignore the option and log a message.
         Object autoIndexId = query.get("autoIndexId");
         if (autoIndexId != null && !Utils.isTrue(autoIndexId)) {
-            throw new MongoServerException("Disabling autoIndexId is not yet implemented");
+            log.debug("Use of autoIndexId is deprecated but was invoked in the context of the {} collection.", collectionName);
         }
 
         MongoCollection<P> collection = resolveCollection(collectionName, false);
