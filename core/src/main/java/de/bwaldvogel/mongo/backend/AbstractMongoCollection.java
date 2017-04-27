@@ -911,7 +911,7 @@ public abstract class AbstractMongoCollection<P> implements MongoCollection<P> {
                 for (String key : newDocument.keySet()) {
                     if (key.contains(".")) {
                         throw new MongoServerException(
-                                "illegal field name. must not happen as it must be catched by the driver");
+                                "illegal field name. must not happen as it must be caught by the driver");
                     }
                     document.put(key, newDocument.get(key));
                 }
