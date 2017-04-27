@@ -27,10 +27,11 @@ public interface MongoBackend {
 
     void dropDatabase(String database) throws MongoServerException;
 
+    void convertToCapped(String databaseName, String collectionNamed, Integer maxDocuments, Integer byteSize) throws MongoServerException;
+
     Collection<Document> getCurrentOperations(MongoQuery query);
 
     List<Integer> getVersion();
 
     void close();
-
 }
