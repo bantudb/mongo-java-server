@@ -10,6 +10,11 @@ public class MemoryBackend extends AbstractMongoBackend {
         return new MemoryDatabase(this, databaseName);
     }
 
+    @Override public void convertToCapped(String databaseName, String collectionNamed, Integer maxDocuments,
+            Integer byteSize) throws MongoServerException {
+        //TODO(gburd): implement...
+    }
+
     @Override
     public void close() {
         // no-op

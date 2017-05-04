@@ -13,19 +13,19 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -43,19 +43,19 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -73,19 +73,19 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -103,19 +103,19 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -133,19 +133,19 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -171,11 +171,11 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "junit:junit": {
@@ -207,11 +207,11 @@
             "requested": "0.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {
@@ -241,11 +241,11 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "junit:junit": {
@@ -277,11 +277,11 @@
             "requested": "0.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {
@@ -311,11 +311,11 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "junit:junit": {
@@ -347,11 +347,11 @@
             "requested": "0.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {
@@ -381,11 +381,11 @@
             "requested": "3.+"
         },
         "io.netty:netty-codec": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "io.netty:netty-transport": {
-            "locked": "4.1.9.Final",
+            "locked": "4.1.10.Final",
             "requested": "4.+"
         },
         "junit:junit": {
@@ -417,11 +417,11 @@
             "requested": "0.+"
         },
         "org.slf4j:jcl-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {

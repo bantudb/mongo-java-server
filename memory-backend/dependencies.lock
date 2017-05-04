@@ -28,26 +28,26 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "org.slf4j:jcl-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -80,26 +80,26 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "org.slf4j:jcl-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -132,26 +132,26 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "org.slf4j:jcl-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -184,26 +184,26 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "org.slf4j:jcl-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -236,26 +236,26 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "org.slf4j:jcl-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         }
     },
@@ -311,13 +311,13 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "junit:junit": {
             "firstLevelTransitive": [
@@ -385,7 +385,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
@@ -393,7 +393,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {
@@ -486,13 +486,13 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "junit:junit": {
             "firstLevelTransitive": [
@@ -560,7 +560,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
@@ -568,7 +568,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {
@@ -661,13 +661,13 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "junit:junit": {
             "firstLevelTransitive": [
@@ -735,7 +735,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
@@ -743,7 +743,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {
@@ -836,13 +836,13 @@
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "io.netty:netty-transport": {
             "firstLevelTransitive": [
                 "de.bwaldvogel:mongo-java-server-core"
             ],
-            "locked": "4.1.9.Final"
+            "locked": "4.1.10.Final"
         },
         "junit:junit": {
             "firstLevelTransitive": [
@@ -910,7 +910,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.slf4j:log4j-over-slf4j": {
@@ -918,7 +918,7 @@
                 "de.bwaldvogel:mongo-java-server-core",
                 "de.bwaldvogel:mongo-java-server-test-common"
             ],
-            "locked": "1.8.0-alpha1",
+            "locked": "1.8.0-alpha2",
             "requested": "1.+"
         },
         "org.springframework.boot:spring-boot-starter-test": {

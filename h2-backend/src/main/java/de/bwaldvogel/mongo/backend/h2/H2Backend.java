@@ -59,6 +59,11 @@ public class H2Backend extends AbstractMongoBackend {
         return new H2Database(databaseName, this, mvStore);
     }
 
+    @Override public void convertToCapped(String databaseName, String collectionNamed, Integer maxDocuments,
+            Integer byteSize) throws MongoServerException {
+        //TODO(gburd): implement...
+    }
+
     @Override
     public void close() {
         log.info("closing {}", this);
